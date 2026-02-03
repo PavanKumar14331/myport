@@ -151,27 +151,17 @@
    <h2 class="section-title" id="contactTitle">Get In Touch</h2>
    <div class="contact-content">
     <form name="contact" method="POST" data-netlify="true">
-  <!-- Netlify mandatory hidden field -->
   <input type="hidden" name="form-name" value="contact">
-  <div>
-    <label>
-      Name
-      <input type="text" name="name" required>
-    </label>
+  <div class="input-box">
+    <input type="text" name="name" placeholder="Your Name" required>
   </div>
-  <div>
-    <label>
-      Email
-      <input type="email" name="email" required>
-    </label>
+  <div class="input-box">
+    <input type="email" name="email" placeholder="Your Email" required>
   </div>
-  <div>
-    <label>
-      Message
-      <textarea name="message" rows="5" required></textarea>
-    </label>
+  <div class="input-box">
+    <textarea name="message" placeholder="Your Message" required></textarea>
   </div>
-  <button type="submit">Send Message</button>
+  <button type="submit" class="btn">Send Message</button>
 </form>
  <div class="contact-info">
      <h3>Connect With Me</h3>
@@ -211,3 +201,4 @@
 </body>
 
 </html>
+
