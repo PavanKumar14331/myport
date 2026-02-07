@@ -32,7 +32,7 @@ Each project includes a short description and relevant details.
 ---
 
 ## 🌐 Live Website
-(Will be updated after deployment)
+ https://pavankumar14331.github.io/myport/
 
 ---
 
@@ -53,3 +53,4 @@ This repository contains only the source code for my portfolio website.
 ---
 
 ### © 2026 Pavan Kumar
+
